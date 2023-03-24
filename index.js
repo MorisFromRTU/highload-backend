@@ -34,7 +34,7 @@ const start = async () => {
 }
 
 start()
-http.createServer(app).listen(8080, () => {
+http.createServer(app).listen(3000, () => {
 	app.get('/', function(req, res){
 		res.sendfile('./tupaya.html');
 	});

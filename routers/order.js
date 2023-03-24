@@ -1,6 +1,6 @@
 const Router = require('express');
 const router = new Router();
-const orderController = require("./controllers/OrderController");
+const orderController = require("./controllers/orderController");
 
 router.get("/getall", orderController.getAll);
 router.get("/getone", orderController.getOne);
